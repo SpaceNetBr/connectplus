@@ -1,7 +1,7 @@
 {
 	"blog": {
-		"blogger_id": "2891248204472735700",
-		"api_key": "xxx,AIzaSyCF7oxEzYlQbxh9uttR33VUjlfeHCn7uhk"
+		"blogger_id": "2982873489677462971",
+		"api_key": "AIzaSyAy6-JtFHfQZQOsbFPCouvCY09FMvCdqnw"
 	},
 	"app": {
 		"status": "1",
@@ -9,7 +9,7 @@
 		"redirect_url": "",
 		"privacy_policy_url": "https://sites.google.com/view/blogger-wallpaper-app-privacy",
 		"display_wallpaper_name": "true",
-		"center_crop_wallpaper": "true",
+		"center_crop_wallpaper": "true",/
 		"custom_label_list": "false"
 	},
 	"notification": {
