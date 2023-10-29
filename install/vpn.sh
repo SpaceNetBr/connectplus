@@ -157,7 +157,7 @@ END
 
 sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 
-# Buat config client UDP 2200
+# Buat config client UDP 53
 cat > /etc/openvpn/client-udp-2200.ovpn <<-END2
 # OVPN CLIENT-TCP CONFIG
 # ----------------------------
@@ -166,7 +166,7 @@ setenv CLIENT_CERT 0
 client
 dev tun
 proto udp
-remote xxxxxxxxx 2200
+remote xxxxxxxxx 53
 resolv-retry infinite
 route-method exe
 nobind
@@ -260,7 +260,7 @@ apt-get install ufw
 ufw allow ssh
 ufw allow 1194/tcp
 ufw allow 81/tcp
-ufw allow 2200/udp
+ufw allow 53/udp
 
 
 #firewall untuk memperbolehkan akses UDP dan akses jalur TCP
