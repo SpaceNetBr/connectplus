@@ -257,7 +257,7 @@ chmod +x websocket.sh
 screen -S websocket ./websocket.sh
 #OpenVPN
 
-wget "https://raw.githubusercontent.com/syapik96/aws/main/install/vpn.sh"
+wget "https://raw.githubusercontent.com/SpaceNetBr/connectplus/blob/main/install/vpn.sh"
 chmod +x vpn.sh
 ./vpn.sh
 
